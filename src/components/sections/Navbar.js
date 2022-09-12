@@ -14,7 +14,7 @@ const Navbar = () => {
       justify="center"
       align="center"
       as="header"
-      bg="white"
+      bg="#f7fafc"
     >
       <Flex
         align="center"

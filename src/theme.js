@@ -1,11 +1,11 @@
 const colors = {
-  primary: "#21c998",
+  primary: "#01bcc6",
 };
 
 const styles = {
   global: {
     body: {
-      bg: "white",
+      bg: "#f0f4f7",
       color: "gray.700",
     },
   },

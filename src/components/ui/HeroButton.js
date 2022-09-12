@@ -8,8 +8,8 @@ const HeroButton = (props) => {
       {...props}
       to="/about"
       as={RouterLink}
-      _hover={{ backgroundColor: "#5BAB80", textDecoration: "none" }}
-      _active={{ backgroundColor: "#5BAB80" }}
+      _hover={{ backgroundColor: "#1a959c", textDecoration: "none" }}
+      _active={{ backgroundColor: "#1a959c" }}
       _focus={{ boxShadow: "none" }}
       bg="primary"
       color="white"
