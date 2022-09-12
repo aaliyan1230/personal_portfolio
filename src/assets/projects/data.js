@@ -4,6 +4,7 @@ import campco from './campco.png'
 import gps from './gps.png'
 import mandelbrot from './mandelbrot.png'
 import vidly from './vidly.png'
+import portfolio from '../photo.png'
 
 const data = [
   {
@@ -62,8 +63,8 @@ const data = [
       "A windows form application for graphic visualization of mandelbrot and julia sets. This was built as a project of OOP in second semester.",
   },
   {
-    img: chat_app,
-    title: "LAN Chat Application",
+    img: campco,
+    title: "Campus Chat Application",
     builtWith: "Python",
     code: "https://github.com/aaliyan1230/chat-application",
     live: "https://github.com/aaliyan1230/chat-application",
