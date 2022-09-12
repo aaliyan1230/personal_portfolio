@@ -12,7 +12,7 @@ const SocialMedia = (props) => {
       <IconButton
         color={style.color}
         _hover={{ color: style.hoverColor }}
-        href="mailto:rahimratnani4@gmail.com"
+        href="mailto:aaliyan1230@gmail.com"
         size="lg"
         variant="link"
         as={Link}
@@ -21,7 +21,7 @@ const SocialMedia = (props) => {
       <IconButton
         color={style.color}
         _hover={{ color: style.hoverColor }}
-        href="https://github.com/rahimratnani"
+        href="https://github.com/aaliyan1230"
         isExternal
         size="lg"
         variant="link"
@@ -31,22 +31,12 @@ const SocialMedia = (props) => {
       <IconButton
         color={style.color}
         _hover={{ color: style.hoverColor }}
-        href="https://www.linkedin.com/in/rahim-ratnani"
+        href="https://www.linkedin.com/in/muhammad-aaliyan-8a031b209"
         isExternal
         size="lg"
         variant="link"
         as={Link}
         icon={<Icon boxSize={6} as={FaLinkedin} />}
-      />
-      <IconButton
-        color={style.color}
-        _hover={{ color: style.hoverColor }}
-        href="https://twitter.com/rahim_ratnani"
-        isExternal
-        size="lg"
-        variant="link"
-        as={Link}
-        icon={<Icon boxSize={6} as={FaTwitter} />}
       />
     </Stack>
   );

@@ -1,55 +1,74 @@
-import memoryGame from "./memory-game.png";
-import ticTacToe from "./tic-tac-toe.png";
-import portfolio from "./portfolio.png";
-import weatherApp from "./weather-app.png";
-import calculator from "./calculator.png";
+import weather from './weather.png'
+import cvmaker from './cvmaker.png'
+import campco from './campco.png'
+import gps from './gps.png'
+import mandelbrot from './mandelbrot.png'
+import vidly from './vidly.png'
 
 const data = [
   {
-    img: weatherApp,
-    title: "Weather App",
-    builtWith: "React, OpenWeatherMap API, Country Flags API, Geolocation API",
-    code: "https://github.com/rahimratnani/weather-app",
-    live: "https://rahimratnani.github.io/weather-app/",
+    img: cvmaker,
+    title: "CV Maker",
+    builtWith: "React, Styled Components, Netlify",
+    code: "https://github.com/aaliyan1230/CV_maker",
+    live: "https://cvmaker1230.netlify.app",
     description:
-      "A weather app that shows current weather for a city. It uses OpenWeatherMap API to fetch current weather. It can show weather in two units (celsius and fahrenheit). It can also fetch weather based on your location if location service is enabled in your browser.",
+      "A cv maker application having fields for objective, experience, education, certifications, skills.",
   },
   {
-    img: ticTacToe,
-    title: "Tic-Tac-Toe",
-    builtWith: "HTML, CSS, JavaScript, Minimax algorithm",
-    code: "https://github.com/rahimratnani/tic-tac-toe",
-    live: "https://rahimratnani.github.io/tic-tac-toe/",
+    img: gps,
+    title: "GPS Attendance System",
+    builtWith: "Django, React, Typescript, Mantine, Mysql",
+    code: "https://github.com/aaliyan1230/GPS_attendance_system_complete",
+    live: "https://github.com/aaliyan1230/GPS_attendance_system_complete",
     description:
-      "Implementation of classic Tic-Tac-Toe game with JavaScript, HTML, and CSS. It has two game modes: Normal mode and AI mode. AI Mode uses the Minimax algorithm to make decisions against the human player.",
+      "An Attendance system with location tracking. Having two base case users: Attendee and Organizer. Each can join some events which have some slots for which attendance is to be marked.",
   },
 
   {
     img: portfolio,
     title: "Portfolio Site",
     builtWith: "React, Chakra UI, React Router",
-    code: "https://github.com/rahimratnani/portfolio-site",
-    live: "https://rahimratnani.me/",
-    description: "Yay! You're already here. Why not take a look around!",
+    code: "https://github.com/aaliyan1230/personal_portfolio",
+    live: "https://aaliyan1230.netlify.app",
+    description: "Closed loop! You're already here. Why not take a look around!",
   },
 
   {
-    img: memoryGame,
-    title: "Memory Game",
-    builtWith: "React, Bulma CSS, Sass",
-    code: "https://github.com/rahimratnani/memory-game",
-    live: "https://rahimratnani.github.io/memory-game/",
+    img: weather,
+    title: "Weather App",
+    builtWith: "React, tailwind css, openweather api",
+    code: "https://github.com/aaliyan1230/weather_app",
+    live: "https://aaliyan1230.github.io/weather_app",
     description:
-      "Built with React and Bulma CSS, this game puts your memory to the test. You'll be presented with multiple images. The images will shuffle every-time they are clicked. DO NOT click any images twice, else the score will reset to zero. The goal is to get the highest score possible.",
+      "Built with react gives you the current weather information of locations all over the world using openweather api.",
   },
   {
-    img: calculator,
-    title: "Calculator",
-    builtWith: "HTML, CSS, JavaScript",
-    code: "https://github.com/rahimratnani/calculator",
-    live: "https://rahimratnani.github.io/calculator/",
+    img: vidly,
+    title: "Vidly movie rental",
+    builtWith: "Django , HTML , CSS, JavaScript",
+    code: "https://github.com/aaliyan1230/movies_vidly",
+    live: "https://sleepy-crag-54996.herokuapp.com/movies/#",
     description:
-      "As you might have already guessed, this is a JavaScript-based calculator. It handles all your day to day mathematical needs very well. Have a look.",
+      "This is a simple backend focused project built as a part of introductory course to django by mosh hamedani.",
+  },
+  {
+    img: mandelbrot,
+    title: "Mandelbrot and Julia set",
+    builtWith: "C#, .Net, Visual Studio",
+    code: "https://github.com/aaliyan1230/Drawing",
+    live: "https://github.com/aaliyan1230/Drawing",
+    description:
+      "A windows form application for graphic visualization of mandelbrot and julia sets. This was built as a project of OOP in second semester.",
+  },
+  {
+    img: chat_app,
+    title: "LAN Chat Application",
+    builtWith: "Python",
+    code: "https://github.com/aaliyan1230/chat-application",
+    live: "https://github.com/aaliyan1230/chat-application",
+    description:
+      "A LAN desktop chat application built with Python implementing simple networking concepts. This was built as a project of Programming Fundamentals in first semester.",
   },
 ];
 

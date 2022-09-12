@@ -8,25 +8,8 @@ import Footer from '../sections/Footer';
 import skills from './../../assets/skills/skillsData';
 
 const About = () => {
-  const [clipboardValue, setcClipboardValue] = useState(
-    'rahimratnani4@gmail.com'
-  );
-  const { hasCopied, onCopy } = useClipboard(clipboardValue);
-  const toast = useToast();
-
-  const handleCopyAndToast = () => {
-    onCopy();
-    toast({
-      title: 'Email copied.',
-      status: 'success',
-      duration: 3000,
-      isClosable: true,
-      position: 'bottom-left',
-    });
-  };
-
   useEffect(() => {
-    document.title = 'About Rahim Ratnani';
+    document.title = 'About Muhammad Aaliyan';
   }, []);
 
   return (
@@ -52,7 +35,7 @@ const About = () => {
 
           <Photo mt="1.5rem" />
 
-          <Introduction onClick={handleCopyAndToast} />
+          <Introduction  />
 
           <Skills skills={skills} mt="4rem" />
 

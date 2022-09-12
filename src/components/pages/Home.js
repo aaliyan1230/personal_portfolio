@@ -5,7 +5,7 @@ import Hero from "../sections/Hero";
 
 const Home = () => {
   useEffect(() => {
-    document.title = "Rahim Ratnani | Front End Developer";
+    document.title = "Muhammad Aaliyan | Software Engineer";
   });
   return (
     <>

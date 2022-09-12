@@ -34,10 +34,10 @@ const Hero = () => {
         >
           I'm{" "}
           <Text color="primary" as="span">
-            Rahim Ratnani
+            Muhammad Aaliyan
           </Text>
           <br />
-          An Aspiring Web Developer.
+          An Aspiring Software Engineer.
         </Heading>
 
         <HeroButton

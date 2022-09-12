@@ -26,7 +26,7 @@ const Footer = () => {
           mb="1rem"
           as={RouterLink}
         >
-          &copy; {new Date().getFullYear()} - Rahim Ratnani
+          &copy; {new Date().getFullYear()} - Muhammad Aaliyan
         </Link>
 
         <SocialMedia direction="row" />

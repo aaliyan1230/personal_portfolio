@@ -7,7 +7,7 @@ import data from "./../../assets/projects/data";
 
 const Projects = () => {
   useEffect(() => {
-    document.title = "Projects Made By Rahim Ratnani";
+    document.title = "Projects Made By Muhammad Aaliyan";
   });
 
   return (
@@ -42,7 +42,7 @@ const Projects = () => {
           {/* ============= */}
 
           <Button
-            href="https://github.com/rahimratnani"
+            href="https://github.com/aaliyan1230"
             mb="2rem"
             mt={{ base: "4rem", lg: "0" }}
             size="lg"

@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://rahimratnani.com">
+  <a href="">
     <h1 align="center">My Portfolio Site</h1>
   </a>
 </p> 
@@ -14,7 +14,7 @@
 ## :rocket: Getting Started
 ```bash
 # clone this repo
-$ git clone https://github.com/rahimratnani/portfolio-site.git
+$ git clone https://github.com/aaliyan1230
 
 # change directory
 $ cd portfolio-site
