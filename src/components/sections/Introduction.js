@@ -27,18 +27,7 @@ const Introduction = (props) => {
       </Text>
 
       <Text fontSize="1.1rem">
-        Let's get in touch. Write me at{" "}
-        <Tooltip
-          bg="rgba(0,0,0,0.8)"
-          color="white"
-          label="Click to copy email address."
-          aria-label="A tooltip"
-          placement="top"
-        >
-          <Button onClick={onClick} color="primary" variant="link">
-            aaliyan1230@gmail.com
-          </Button>
-        </Tooltip>
+        Let's get in touch at,
       </Text>
 
       <SocialMedia ml="-10px" mt="2rem" direction="row" />
