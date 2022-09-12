@@ -1,8 +1,7 @@
-import { Box,  Heading, Text, Tooltip, Button } from "@chakra-ui/react";
+import { Box,  Heading, Text} from "@chakra-ui/react";
 import SocialMedia from "../ui/SocialMedia";
 
 const Introduction = (props) => {
-  const { onClick } = props;
   return (
     <Box px={2} mt="1.5rem" w="full" textAlign="left" as="section">
       <Heading mb={4} fontWeight="500" fontSize="2xl" as="h2">
