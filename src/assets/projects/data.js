@@ -4,7 +4,7 @@ import campco from './campco.png'
 import gps from './gps.png'
 import mandelbrot from './mandelbrot.png'
 import vidly from './vidly.png'
-import portfolio from '../photo.png'
+import portfolio from './portfolio.png'
 
 const data = [
   {

@@ -22,4 +22,6 @@ const fonts = {
     monospace`,
 };
 
-export default { colors, styles, fonts };
+const theme={ colors, styles, fonts }
+
+export default theme;
