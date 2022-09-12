@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Flex, Heading, useClipboard, useToast, Text } from '@chakra-ui/react';
+import React, { useEffect } from 'react';
+import { Flex, Heading,  Text } from '@chakra-ui/react';
 import Introduction from '../sections/Introduction';
 import Photo from '../ui/Photo';
 import RandomFacts from '../sections/RandomFacts';

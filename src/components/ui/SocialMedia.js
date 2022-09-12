@@ -1,5 +1,5 @@
 import { Icon, IconButton, Link, Stack } from "@chakra-ui/react";
-import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const SocialMedia = (props) => {
   const style = {

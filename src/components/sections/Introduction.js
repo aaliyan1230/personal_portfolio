@@ -1,4 +1,4 @@
-import { Box, Link, Heading, Text, Tooltip, Button } from "@chakra-ui/react";
+import { Box,  Heading, Text, Tooltip, Button } from "@chakra-ui/react";
 import SocialMedia from "../ui/SocialMedia";
 
 const Introduction = (props) => {

@@ -1,4 +1,4 @@
-import { Box, Heading, List, ListItem, ListIcon, Link } from '@chakra-ui/react';
+import { Box, Heading, List, ListItem, ListIcon} from '@chakra-ui/react';
 import CustomHr from './../ui/CustomHr';
 import { FaCaretRight } from 'react-icons/fa';
 
@@ -30,7 +30,7 @@ const RandomFacts = (props) => {
 
         <ListItem>
           <ListIcon color="primary" mb="2px" as={FaCaretRight} />
-          Pen and Paper are still on of my best tools.
+          Pen and Paper are still one of my strongest tools.
         </ListItem>
 
       </List>
