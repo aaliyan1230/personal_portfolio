@@ -40,7 +40,7 @@ const data = [
     title: "Weather App",
     builtWith: "React, tailwind css, openweather api",
     code: "https://github.com/aaliyan1230/weather_app",
-    live: "https://aaliyan1230.github.io/weather_app",
+    live: "https://weatherapp1230.netlify.app",
     description:
       "Built with react gives you the current weather information of locations all over the world using openweather api.",
   },
