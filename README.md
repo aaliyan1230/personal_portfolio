@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="">
+  <a href="https://aaliyan1230.netlify.app/">
     <h1 align="center">My Portfolio Site</h1>
   </a>
 </p> 
@@ -29,4 +29,3 @@ $ npm start
 #### See it [live](https://aaliyan1230.netlify.app/) :tv:
 
 ----
-Made with :heart: and [Chakra UI](https://chakra-ui.com/)
