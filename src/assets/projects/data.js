@@ -1,5 +1,6 @@
 import weather from './weather.png'
 import cvmaker from './cvmaker.png'
+import store from './store.png'
 import campco from './campco.png'
 import gps from './gps.png'
 import mandelbrot from './mandelbrot.png'
@@ -15,6 +16,15 @@ const data = [
     live: "https://cvmaker1230.netlify.app",
     description:
       "A cv maker application having fields for objective, experience, education, certifications, skills.",
+  },
+  {
+    img: store,
+    title: "E-Commerce Store",
+    builtWith: "React, Redux, Styled-components, fakestore api",
+    code: "https://github.com/aaliyan1230/e_commerce_app",
+    live: "https://morbstore1230.netlify.app",
+    description:
+      "An E-Commerce store UI built with react and styled-components and dummy data fetched from fakestore api. Implemented shopping cart state-management with redux",
   },
   {
     img: gps,
