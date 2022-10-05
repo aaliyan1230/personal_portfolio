@@ -24,7 +24,7 @@ const data = [
     code: "https://github.com/aaliyan1230/e_commerce_app",
     live: "https://morbstore1230.netlify.app",
     description:
-      "An E-Commerce store UI built with react and styled-components and dummy data fetched from fakestore api. Implemented shopping cart state-management with redux",
+      "An E-Commerce store UI built with react and styled-components and dummy data fetched from fakestore api. Implemented shopping cart state-management with redux.",
   },
   {
     img: gps,
