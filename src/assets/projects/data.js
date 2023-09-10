@@ -6,8 +6,18 @@ import gps from './gps.png'
 import mandelbrot from './mandelbrot.png'
 import vidly from './vidly.png'
 import portfolio from './portfolio.png'
+import dinedrop from './dinedrop.png'
 
 const data = [
+  {
+    img: dinedrop,
+    title: "DineDrop",
+    builtWith: "Flutter, Firebase, Google Maps, Stripe",
+    code: "https://github.com/aaliyan1230/DineDrop/",
+    live: "https://github.com/aaliyan1230/DineDrop",
+    description:
+      "A Food Ordering Restaurant SaaS E-Commerce Mobile Application with Order Tracking, but with Flutter, Firebase, Google Maps API and Stripe for payment integration. Admin Panel also provided for Restaurants to manage their orders, food categories, menu items, etc.",
+  },
   {
     img: cvmaker,
     title: "CV Maker",
