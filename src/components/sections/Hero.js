@@ -37,7 +37,7 @@ const Hero = () => {
             Muhammad Aaliyan
           </Text>
           <br />
-          An Aspiring Software Engineer.
+          A Full Stack Software Engineer.
         </Heading>
 
         <HeroButton
