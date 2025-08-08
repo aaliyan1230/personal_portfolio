@@ -13,10 +13,7 @@ const RandomFacts = (props) => {
 
       <List fontSize="1.1rem" mt="2rem" textAlign="left" spacing={3}>
 
-        <ListItem>
-          <ListIcon color="primary" mb="2px" as={FaCaretRight} />I prefer Reddit
-          over other social media
-        </ListItem>
+    
 
         <ListItem>
           <ListIcon color="primary" mb="2px" as={FaCaretRight} />
